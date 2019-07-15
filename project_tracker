@@ -1,0 +1,33 @@
+
+Project : Task Tracker
+
+links: https://pythonhosted.org/Flask-JWT/
+
+1. Task has following fields:
+
+		Task_ID
+		Task_Name
+		Task_Desc
+		owner (user_name)
+		owner_id (user_id)
+		Due date
+		child_tasks
+		parent_tasks
+
+2. User has following fields:
+
+		user_name
+		password
+		user_id
+
+3. APIs to be developed:
+
+POST /<IP>/Task/<Task_name> /* User authentication required*/
+PUT  /<IP>/Task/<Task_name> /* User authentication required*/
+GET  /<IP>/Task/<Task_name> /* User authentication required*/
+DELETE /<IP>/Task/<Task_name> /* User authentication required*/
+
+GET /<IP>/Task_list
+
+POST /<IP>/User
+DELETE /<IP>/User
